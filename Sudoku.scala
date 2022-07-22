@@ -68,7 +68,7 @@ class Sudoku(board: Board) extends LazyLogging {
     }
   }
   def func(x:Int): Int = {
-    x * 2
+    x * 3
     }
 
 }
