@@ -67,4 +67,8 @@ class Sudoku(board: Board) extends LazyLogging {
         check(x, y, gridSize, fi(i), fj(j), usedNums + (number -> Cell(i, j)), newStatus)(fi, fj)
     }
   }
+  def func(x:Int): Int = {
+    x * 2
+    }
+
 }
